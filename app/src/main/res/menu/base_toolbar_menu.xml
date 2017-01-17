@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <!--扫描-->
+   <!-- <item android:id="@+id/title_scan"　　　　//id
+    android:title="@string/scan"　　　　　//title长按显示的文字
+    android:visible="false"　　　　　　　　//默认全部不显示
+    android:icon="@mipmap/ic_scan"　　　　//图标
+    app:showAsAction="ifRoom"/>-->
+    <!--添加-->
+    <item android:id="@+id/title_scan"
+        android:title="add"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+    <!--添加-->
+    <item android:id="@+id/title_add"
+        android:title="add"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+    <!--设置-->
+    <item android:id="@+id/title_setting"
+        android:title="add"
+        android:icon="@mipmap/ic_launcher"
+        android:visible="false"
+
+        app:showAsAction="ifRoom"/>
+    <!--搜索-->
+    <item android:id="@+id/title_search"
+        android:title="add"
+        android:icon="@mipmap/ic_launcher"
+        android:visible="false"
+
+        app:showAsAction="ifRoom"/>
+    <!--日期-->
+    <item android:id="@+id/title_date"
+        android:title="add"
+        android:icon="@mipmap/ic_launcher"
+        android:visible="false"
+
+        app:showAsAction="ifRoom"/>
+    <!--刷新-->
+    <item android:id="@+id/title_refresh"
+        android:title="add"
+        android:icon="@mipmap/ic_launcher"
+        android:visible="false"
+
+        app:showAsAction="ifRoom"/>
+    <!--<item android:id="@+id/title_more1"-->
+    <!--android:title="@string/right2"-->
+    <!--app:showAsAction="never"/>-->
+    <!--<item android:id="@+id/title_more2"-->
+    <!--android:title="@string/right2"-->
+    <!--app:showAsAction="never"/>-->
+</menu>
